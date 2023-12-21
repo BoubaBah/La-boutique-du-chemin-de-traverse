@@ -5,21 +5,32 @@
 body{
     font-family: 'Mountains of Christmas', serif;
     background-color: #726255;
-
+    margin: 0%;
 }
+
 header{
-    display: flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
-    
-	
+	align-items: center;
+	align-content: center;
+    background-color: #372e29;
 }
 
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+}
 
-header ul{
-    display: flex;
-	justify-content: flex-end;
+.bouton {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
     list-style: none;
 }
+
 .sec1{
     background-image: url(img/fond.jpg) ;
     height: 65vh;
@@ -106,7 +117,7 @@ border-radius: 40%;
 
 .footer{
     display: flex;
-    background-color: burlywood;
+    background-color: #372e29;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
