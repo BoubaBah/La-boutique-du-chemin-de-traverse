@@ -5,13 +5,12 @@
 body{
     font-family: 'Mountains of Christmas', serif;
     background-color: #726255;
-
+    margin: 0%;
 }
+
 header{
     display: flex;
-	justify-content: space-between;
-    
-	
+	justify-content: space-between;	
 }
 
 
@@ -22,8 +21,7 @@ header ul{
 }
 .sec1{
     background-image: url(img/fond.jpg) ;
-    height: 65vh;
-    
+    height: 65vh;   
 }
 .sec1 h1{
     font-size: 10vh;
@@ -40,49 +38,49 @@ header ul{
     color: brown;
     
 }
-.sec1 h2, p{
-    background-color: rgba(51, 51, 50, 0.703);
-}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style section produit ------------------------------------------------------------*/
+
 h3{
     text-align: center;
 }
+
 h2{
     text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.dispo_produit{
+    display: flex;
 }
 
 .descrip{
     width: 25vh;
     height: 20vh;
     border-radius: 10%;
-    box-shadow: 10px 5px 10px;
-    
+    box-shadow: 10px 5px 10px;   
 }
+
 .produit{
     display: flex;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: baseline;
-	align-content: stretch;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }
-.para{
-background-color: rgba(240, 248, 255, 0);
 
-
-}
 .sorcier{
     width: 10vh;
     height: 10vh;
     border-radius: 40%;
 }
-.potion{
-    display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: space-around;
 
-}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style section présentation équipe ------------------------------------------------*/
+
 .res{
     display: flex;
 	flex-direction: row;
@@ -92,16 +90,16 @@ background-color: rgba(240, 248, 255, 0);
 	align-content: stretch;
    
 }
-.photodePro{
-    
-width: 20vh;
-height: 20vh;
-border-radius: 40%;
+
+.photodePro{   
+    width: 20vh;
+    height: 20vh;
+    border-radius: 40%;
 }
+
 .logo{
     height: 4vh;
     height: 4vh;
-    
 }
 
 .footer{
@@ -113,6 +111,7 @@ border-radius: 40%;
 	align-items: flex-end;
 	align-content: stretch;
 }
+
 .footer p{
     font-size: 3vh;
     background-color: rgba(240, 248, 255, 0);
