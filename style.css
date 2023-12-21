@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Mountains of Christmas', serif;
+    background-color: #726255;
+
+}
+header{
+    display: flex;
+	justify-content: space-between;
+    
+	
+}
+
+
+header ul{
+    display: flex;
+	justify-content: flex-end;
+    list-style: none;
+}
+.sec1{
+    background-image: url(img/fond.jpg) ;
+    height: 65vh;
+    
+}
+.sec1 h1{
+    font-size: 10vh;
+    color: burlywood;
+    text-align: center;
+}
+.sec1 h2{
+    font-size: 4vh;
+    color: bisque;
+    text-align: center;
+}
+.sec1 p{
+    text-align: center;
+    color: brown;
+    
+}
+.sec1 h2, p{
+    background-color: rgba(51, 51, 50, 0.703);
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.descrip{
+    width: 25vh;
+    height: 20vh;
+    border-radius: 10%;
+    box-shadow: 10px 5px 10px;
+    
+}
+.produit{
+    display: flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: stretch;
+}
+.para{
+background-color: rgba(240, 248, 255, 0);
+
+
+}
+.sorcier{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 40%;
+}
+.potion{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-around;
+
+}
+.res{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+   
+}
+.photodePro{
+    
+width: 20vh;
+height: 20vh;
+border-radius: 40%;
+}
+.logo{
+    height: 4vh;
+    height: 4vh;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: burlywood;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
+}
+.footer p{
+    font-size: 3vh;
+    background-color: rgba(240, 248, 255, 0);
+}
