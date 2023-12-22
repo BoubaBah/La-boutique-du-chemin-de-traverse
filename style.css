@@ -38,44 +38,86 @@ header ul{
     color: brown;
     
 }
-
-/*---------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------- Style section produit ------------------------------------------------------------*/
-
-h3{
-    text-align: center;
-}
-
 h2{
     text-align: center;
 }
 
-h4{
-    text-align: center;
-}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style section produit ------------------------------------------------------------*/
 
-.dispo_produit{
+/*----------------- Style Affichage des produits -----------------*/
+
+.affichage_produit{
     display: flex;
-}
-
-.descrip{
-    width: 25vh;
-    height: 20vh;
-    border-radius: 10%;
-    box-shadow: 10px 5px 10px;   
+    justify-content: center;
+    align-items: center;
 }
 
 .produit{
     display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+    width: 50%;
+}
+
+.dispo_img_potion{
+    width: 35%;
+}
+
+.dispo_titre_description{
+    width: 65%;
+}
+
+.dispo_img_h4_sorcier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/*----------------------- Style des images ----------------------*/
+
+.descrip{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 10px 5px 10px;   
 }
 
 .sorcier{
-    width: 10vh;
-    height: 10vh;
+    width: 8%;
     border-radius: 40%;
+}
+
+/*------------- Style des titres et des paragraphe--------------*/
+
+.titre_section{
+    color: #EEBA30;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: 1%;
+    -webkit-text-stroke: 2px #AE0001;
+}
+
+.titre_produit{
+    color: #EEBA30;
+    font-size: xx-large;
+    text-align: center;
+    -webkit-text-stroke: 1px #AE0001;
+    margin: 0%
+}
+
+.soustitre_produit{
+    width: 35%;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+.para{
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin: 0%;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
