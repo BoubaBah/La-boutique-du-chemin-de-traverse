@@ -47,10 +47,15 @@ h2{
 
 /*----------------- Style Affichage des produits -----------------*/
 
+.dispo_produit{
+    margin: 0 2%;
+}
+
 .affichage_produit{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 3% 0;
 }
 
 .produit{
@@ -58,6 +63,7 @@ h2{
 	justify-content: space-between;
 	align-items: center;
     width: 50%;
+    margin: 0 0 0 0.5%;
 }
 
 .dispo_img_potion{
@@ -84,7 +90,7 @@ h2{
 }
 
 .sorcier{
-    width: 8%;
+    width: 13%;
     border-radius: 40%;
 }
 
