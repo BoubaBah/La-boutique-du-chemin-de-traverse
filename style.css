@@ -8,6 +8,22 @@ body{
     margin: 0%;
 }
 
+h2 {
+    color: #eeba30;
+    font-size: 55px;
+    -webkit-text-stroke: 2px #ae0001;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3 {
+    color: #eeba30;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #ae0001;
+    text-decoration: none;
+    text-align: center;
+}
+/*------------------------------Section NAV---------------------------*/
 header{
 	display: flex;
 	flex-direction: row;
@@ -18,19 +34,36 @@ header{
     background-color: #372e29;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    margin-top: 2px;
+nav {
+    width: 15%;
 }
+
+.logo {
+    width: 45px;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%; 
+    border: groove #eeba30;
+    padding: 2px;
+}
+
 
 .bouton {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    justify-content: space-around;
     list-style: none;
 }
 
+.stylea {
+    color: #eeba30;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #ae0001;
+    text-decoration: none;
+}
+
+/*------------------------------Section body---------------------------*/
 .sec1{
     background-image: url(img/fond.jpg) ;
     height: 65vh;
@@ -51,15 +84,6 @@ header{
     color: brown;
     
 }
-.sec1 h2, p{
-    background-color: rgba(51, 51, 50, 0.703);
-}
-h3{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
 
 .descrip{
     width: 25vh;
@@ -78,10 +102,9 @@ h2{
 	align-content: stretch;
 }
 .para{
-background-color: rgba(240, 248, 255, 0);
-
-
+    background-color: rgba(240, 248, 255, 0);
 }
+
 .sorcier{
     width: 10vh;
     height: 10vh;
@@ -103,28 +126,203 @@ background-color: rgba(240, 248, 255, 0);
 	align-content: stretch;
    
 }
-.photodePro{
-    
-width: 20vh;
-height: 20vh;
-border-radius: 40%;
-}
-.logo{
-    height: 4vh;
-    height: 4vh;
-    
+
+/*------------------------------Section Personnel---------------------------*/
+
+.personnel {
+    display: flex;
 }
 
-.footer{
+.perso {
+    width: 100%;
+	display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+    line-height: 2px;
+    margin: 0px 0px 10px 0px
+}
+
+.perso p {
+    color: white;
+}
+
+.photodePro{  
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20%;
+}
+
+/*------------------------------Section Footer---------------------------*/
+
+.footer {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+	align-items: baseline;
     background-color: #372e29;
+    text-align: center;
+    line-height: 2px;
+}
+
+.footer p {
+    color: white;
+
+}
+
+.rslogo {
+	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-end;
-	align-content: stretch;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: center;
+    margin: 0px 0px 10px 0px;
 }
-.footer p{
-    font-size: 3vh;
-    background-color: rgba(240, 248, 255, 0);
+
+.image {
+    width: 45px;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: center;
+    border-radius: 50%; 
+    border: groove #eeba30;
+    padding: 2px;
+}
+.apropos1 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+    border-spacing: 5px;
+}
+
+/*------------------------------Section contact---------------------------*/
+
+.formulaire {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.erenpotter2 {
+    width: 500px;
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: center;
+    border-radius: 50%; 
+    border: groove #eeba30;
+    padding: 2px;
+}
+
+.contactez-nous {
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+    margin-right: 100px;
+}
+
+.contactez-nous > p {
+    font-weight: 300;
+    }
+    
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+form div > input, form div > select, form div > textarea {
+    background: #726255;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    color: white;
+    }
+    
+form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+    
+form div > select {
+    appearance: none;
+    background-size: 15px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    }
+    
+form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    }
+    
+form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+    }
+    
+form div > select:invalid {
+    color: white;
+    }
+    
+form div > select option {
+    background: white;
+    color: white;
+    }
+    
+form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+form button {
+    width: 310px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #726255;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: white;
+    }
+
+.envoyer {
+    color: #eeba30;
+    font-size: 29px;
+    -webkit-text-stroke: 1px #ae0001;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Mountains of Christmas', serif;
 }
