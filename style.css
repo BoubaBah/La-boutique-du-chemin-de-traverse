@@ -165,3 +165,34 @@ h2{
     font-size: 3vh;
     background-color: rgba(240, 248, 255, 0);
 }
+
+/*-------------------------------------------- Responsive ------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    /*---------------------------------------------------------------------------------------------*/
+    /*--------------------------------- Style section produit ------------------------------------*/
+    /*---------------- Style disposition produit -----------------*/
+    
+    .affichage_produit{
+        display: inline;
+        margin: 3% 0;
+    }
+
+    .produit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 10% 3%;
+    }
+
+    /*---------------- Style titre & paragraphe -----------------*/
+
+    .titre_section{
+        font-size: xx-small;
+    }
+
+    .para{
+        font-size: x-small;
+    }
+}
