@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
 
 
 body{
@@ -23,6 +24,7 @@ h3 {
     text-decoration: none;
     text-align: center;
 }
+
 /*------------------------------Section NAV---------------------------*/
 header{
 	display: flex;
@@ -66,23 +68,47 @@ nav {
 /*------------------------------Section body---------------------------*/
 .sec1{
     background-image: url(img/fond.jpg) ;
-    height: 65vh;
+    height: 100vh;
+}
+.homeP{
+    background-color: rgba(0, 0, 0, 0.593);
+    margin: 20%;
+    margin-top: 0.5%;
+
+    color: #EEBA30;
+}
+.homeP h2{
+    -webkit-text-stroke: 1px #AE0001;
+    font-size: 250%;
     
 }
-.sec1 h1{
-    font-size: 10vh;
-    color: burlywood;
+
+ .sec1 h1{
+    text-transform: uppercase;
+     font-size: 700%;
+    
+    color: #EEBA30;
+    ;
+    -webkit-text-stroke: 4px #AE0001;
     text-align: center;
+    
 }
 .sec1 h2{
-    font-size: 4vh;
-    color: bisque;
-    text-align: center;
+  
 }
 .sec1 p{
     text-align: center;
-    color: brown;
     
+    font-size: 18px;
+    color: #fefdfc;
+    
+}
+
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
 
 .descrip{
@@ -94,7 +120,6 @@ nav {
 }
 .produit{
     display: flex;
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -212,6 +237,7 @@ nav {
     width: 100%;
     height: auto;
     display: flex;
+    background-color: #372E29;
     justify-content: center;
     align-items: center;
     align-content: center;
