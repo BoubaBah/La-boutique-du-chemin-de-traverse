@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boutique du chemin de Traverse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/Logo projet.png" type="image/x-icon"/>
+</head>
+<body>
+    <header>
+        <div>
+          <img class="logo" src="img/Logo projet.png" alt="un logo"/>
+        </div>
+        <nav>
+          <ul class="bouton">
+            <li>
+              <a class="stylea" href="index.html">Accueil</a>
+            </li>
+            <li>
+              <a class="stylea" target="_blank" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+     <section class="formulaire">
+        <div class="contactez-nous">
+            <h2>Contactez-nous</h2>
+            <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+            <form action="/page-traitement-donnees" method="post">
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Mon nom" required>
+            </div>
+            <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="sujet">Quel est le sujet de votre message ?</label>
+                <select name="sujet" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                <option value="probleme-compte">Problème avec mon compte</option>
+                <option value="question-produit">Question à propos d’un produit</option>
+                <option value="suivi-commande">Suivi de ma commande</option>
+                <option value="autre">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            </div>
+            <div>
+                <button class="envoyer" type="submit">Envoyer mon message</button>
+            </div>
+            </form>
+            </div>
+        <div>
+            <img class="erenpotter2" src="img/erenpotter2.jpg" alt="">
+        </div>
+     </section>   
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="apropos">
+                <h3>À Propos</h3>
+                <p>Mention légale</p>
+                <p>Conditions Générales de vente</p>
+                <p>Politique de confidentialité</p>
+                <p>Tout  droits réservés - Copyright © 2023</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>Suivez nous sur nos réseaux</p>
+                <div class="rslogo">
+                  <img class="image" src="img/FBlogo.png" alt="">
+                  <img class="image" src="img/instalogo.png" alt="">
+                </div>
+            </div>
+            <div class="horaire">
+                <h3>Lieu et horaire:</h3>
+                <p>19 avenue 93/4</p>
+                <p>13000 île du Paradis</p>
+                <p>Lun-Sam: 10h-20h</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
