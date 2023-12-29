@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Boutique du chemin de Traverse</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="img/logo/eren.png" type="image/x-icon" /> 
+    <link rel="shortcut icon" href="img/Logo projet.png" type="image/x-icon"/>
   </head>
   <body>
     <header>
-      <img src="img/logo/eren.png" height="30px" alt="un logo">
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
+      <div>
+        <img class="logo" src="img/Logo projet.png" alt="un logo"/>
+      </div>
+      <nav>
+        <ul class="bouton">
+          <li>
+            <a class="stylea" href="index.html">Accueil</a>
+          </li>
+          <li>
+            <a class="stylea" target="_blank" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <div class="sec1">
+    <section class="sec1">
         <h1>Le Chemin de Traverse</h1>
+      <div class="homeP">
         <h2>Qui somme nous ?</h2>
         <p>
           Bienvenue au "Chemin de Traverse", l'échoppe où la magie et le
@@ -176,47 +180,48 @@
         </div>
       </div>
     </section>
-    
-    <section class="responsable">
-      <h2>Responsable</h2>
-        <div class="res">
-            <div>
-                <h3>Eren Yeager</h3>
-                <img src="img/personnage/photoDeren.jpg"class="photodePro" alt="une image" srcset="">
-                <h3>SAO</h3>
-            </div>
-            <div>
-                <h3>mikasa ackerman </h3>
-                <img src="img/personnage/mikasaphotode profil.jpg" class="photodePro" alt="une image" srcset="">
-                <h3>Directrice Ressource Humaine</h3>
-            </div>
-            <div>
-                <h3>Armin Arlet</h3>
-                <img src="img/personnage/arminPhotode.jpg" class="photodePro" alt="une image" srcset="">
-                <h3>Directeur Adjoint</h3>
-            </div>
+    <section class="personnel">
+        <h2>Le Personnel</h2>
+        <div class="perso">
+          <div>
+            <h3>Armin Arlet</h3>
+            <img src="img/arminPhotode.jpg"class="photodePro" alt="une image" srcset="">
+            <p>Directeur Adjoint</p>
+          </div>
+          <div>
+            <h3>Eren Yeager</h3>
+            <img src="img/photoDeren.jpg"class="photodePro" alt="une image" srcset="">
+            <p>CEO</p>
+          </div>
+          <div>
+            <h3>Mikasa Ackerman </h3>
+            <img src="img/mikasaphotode profil.jpg"class="photodePro" alt="une image" srcset="">
+            <p>Directrice Ressource Humaine</p>
+          </div>
         </div>
     </section>
     <footer>
         <section class="footer">
-            <div>
-                <h3>A Propos</h3>
-                <p>Mention légale/CGV 
-                    Politique de confidentialité
-                </p>
+            <div class="apropos">
+                <h3>À Propos</h3>
+                <p>Mention légale</p>
+                <p>Conditions Générales de vente</p>
+                <p>Politique de confidentialité</p>
+                <p>Tout  droits réservés - Copyright © 2023</p>
             </div>
-            <div>
+            <div class="contact">
                 <h3>Contact</h3>
                 <p>Suivez nous sur nos réseaux</p>
-                <img src="img/logo/FB_logo.png" class="logo" alt="">
-                <img src="img/logo/Insta_logo.png" class="logo" alt="" srcset="">
-                <p>Tout  droits réservés -Copyright © 2023  </p>
+                <div class="rslogo">
+                  <img class="image" src="img/FBlogo.png" alt="">
+                  <img class="image" src="img/instalogo.png" alt="">
+                </div>
             </div>
-            <div>
+            <div class="horaire">
                 <h3>Lieu et horaire:</h3>
-                <p>19 avenue 93/4
-                    13000 île du Paradis
-                    Lun-Sam: 10h-20h</p>
+                <p>19 avenue 93/4</p>
+                <p>13000 île du Paradis</p>
+                <p>Lun-Sam: 10h-20h</p>
             </div>
         </section>
     </footer>
