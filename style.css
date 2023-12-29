@@ -7,7 +7,6 @@ body{
     font-family: 'Mountains of Christmas', serif;
     background-color: #726255;
     margin: 0%;
-}
 
 h2 {
     color: #eeba30;
@@ -33,7 +32,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-    background-color: #372e29;
+  background-color: #372e29;
 }
 
 nav {
@@ -70,17 +69,17 @@ nav {
     background-image: url(img/fond.jpg) ;
     height: 100vh;
 }
+ 
 .homeP{
     background-color: rgba(0, 0, 0, 0.593);
     margin: 20%;
     margin-top: 0.5%;
-
     color: #EEBA30;
 }
+ 
 .homeP h2{
     -webkit-text-stroke: 1px #AE0001;
     font-size: 250%;
-    
 }
 
  .sec1 h1{
@@ -93,9 +92,7 @@ nav {
     text-align: center;
     
 }
-.sec1 h2{
-  
-}
+ 
 .sec1 p{
     text-align: center;
     
@@ -107,41 +104,99 @@ nav {
 h3{
     text-align: center;
 }
+
 h2{
     text-align: center;
 }
 
-.descrip{
-    width: 25vh;
-    height: 20vh;
-    border-radius: 10%;
-    box-shadow: 10px 5px 10px;
-    
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style section produit ------------------------------------------------------------*/
+
+/*----------------- Style Affichage des produits -----------------*/
+
+.dispo_produit{
+    margin: 0 2%;
 }
-.produit{
+
+.affichage_produit{
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: baseline;
-	align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0;
 }
-.para{
-    background-color: rgba(240, 248, 255, 0);
+
+.produit{
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  width: 50%;
+  margin: 0 0 0 0.5%;
+}
+
+.dispo_img_potion{
+    width: 35%;
+}
+
+.dispo_titre_description{
+    width: 65%;
+}
+
+.dispo_img_h4_sorcier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/*----------------------- Style des images ----------------------*/
+
+.descrip{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 10px 5px 10px;   
 }
 
 .sorcier{
-    width: 10vh;
-    height: 10vh;
+    width: 14%;
     border-radius: 40%;
 }
-.potion{
-    display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: space-around;
 
+/*------------- Style des titres et des paragraphe--------------*/
+
+.titre_section{
+    color: #EEBA30;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: 1%;
+    -webkit-text-stroke: 2px #AE0001;
 }
+
+.titre_produit{
+    color: #EEBA30;
+    font-size: xx-large;
+    text-align: center;
+    -webkit-text-stroke: 1px #AE0001;
+    margin: 0%;
+}
+
+.soustitre_produit{
+    width: 50%;
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+.para{
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- Style section présentation équipe ------------------------------------------------*/
+
 .res{
     display: flex;
 	flex-direction: row;
@@ -245,17 +300,17 @@ h2{
 }
 
 .erenpotter2 {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: baseline;
 	align-content: center;
-    border-radius: 50%; 
-    border: groove #eeba30;
-    padding: 2px;
+  border-radius: 50%; 
+  border: groove #eeba30;
+  padding: 2px;
 }
 
 .contactez-nous {
@@ -352,3 +407,33 @@ form button {
     text-align: center;
     font-family: 'Mountains of Christmas', serif;
 }
+ 
+/*-------------------------------------------- Responsive ------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    /*---------------------------------------------------------------------------------------------*/
+    /*--------------------------------- Style section produit ------------------------------------*/
+    /*---------------- Style disposition produit -----------------*/
+    
+    .affichage_produit{
+        display: inline;
+        margin: 3% 0;
+    }
+
+    .produit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 10% 3%;
+    }
+
+    /*---------------- Style titre & paragraphe -----------------*/
+
+    .titre_section{
+        font-size: xx-small;
+    }
+
+    .para{
+        font-size: x-small;
+    }
