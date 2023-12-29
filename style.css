@@ -244,7 +244,6 @@ h2{
 
 .footer p {
     color: white;
-
 }
 
 .rslogo {
@@ -270,7 +269,8 @@ h2{
     border: groove #eeba30;
     padding: 2px;
 }
-.apropos1 {
+
+.apropos {
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -414,13 +414,25 @@ form button {
 
 @media screen and (max-width: 768px) {
     /*---------------------------------------------------------------------------------------------*/
+    /*---------------------------------------- Style Navbar --------------------------------------*/
+    header{
+        justify-content: center;
+    }
+    
+    nav {
+        width: 100%;
+    }
+
+    /*------------------------- Section présentation entreprise ----------------------------------*/
+
     .sec1 h1{
         font-size: 350%;
         -webkit-text-stroke: 2px #AE0001;
     }
+
     .homeP{
         font-size: x-small;
-        
+        margin: 3%;   
     }
     
     /*--------------------------------- Style section produit ------------------------------------*/
@@ -449,23 +461,67 @@ form button {
     .para{
         font-size: x-small;
     }
+
     /*---------------- Personnel !!!!!! -----------------*/
     
     .styleP{
-        font-size: 125%;
+        font-size: 100%;
         -webkit-text-stroke: 0.5px #AE0001;
     }
+
     .photodePro{
         width: 100%;
     }
+
     .perso{
         margin: 5px 5px 5px 5px;
     }
+
     .para_Personnel{
-        font-size: x-small;
+        font-size: xx-small;
     }
+
     #styleP{
-        font-size:120% ;
+        font-size:95% ;
         -webkit-text-stroke: 0.5px #AE0001;
     }
+
+    /*---------------- Style footer -----------------*/
+    
+    .footer h3 {
+        font-size: medium;
+        -webkit-text-stroke: 0.5px #ae0001;
+    }
+
+    .footer p {
+        font-size: xx-small;
+    }
+    
+    .rslogo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        align-content: center;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .image {
+        width: 30px;
+    }
+
+    .apropos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #style_contact_footer{
+        font-size: 20px;
+        -webkit-text-stroke: 0.5px #ae0001;
+    }
+
 }
