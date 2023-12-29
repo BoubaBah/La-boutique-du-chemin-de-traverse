@@ -208,7 +208,7 @@ h2{
 
 /*------------------------------Section Personnel---------------------------*/
 
-.perso {
+.card_perso {
     width: 100%;
 	display: flex;
     justify-content: space-evenly;
@@ -218,6 +218,7 @@ h2{
     line-height: 2px;
     margin: 0px 0px 10px 0px
 }
+
 
 .perso p {
     color: white;
@@ -413,6 +414,15 @@ form button {
 
 @media screen and (max-width: 768px) {
     /*---------------------------------------------------------------------------------------------*/
+    .sec1 h1{
+        font-size: 350%;
+        -webkit-text-stroke: 2px #AE0001;
+    }
+    .homeP{
+        font-size: x-small;
+        
+    }
+    
     /*--------------------------------- Style section produit ------------------------------------*/
     /*---------------- Style disposition produit -----------------*/
     
@@ -432,10 +442,30 @@ form button {
     /*---------------- Style titre & paragraphe -----------------*/
 
     .titre_section{
-        font-size: xx-small;
+        font-size: 250%;
+        -webkit-text-stroke: 1px #AE0001;
     }
 
     .para{
         font-size: x-small;
+    }
+    /*---------------- Personnel !!!!!! -----------------*/
+    
+    .styleP{
+        font-size: 125%;
+        -webkit-text-stroke: 0.5px #AE0001;
+    }
+    .photodePro{
+        width: 100%;
+    }
+    .perso{
+        margin: 5px 5px 5px 5px;
+    }
+    .para_Personnel{
+        font-size: x-small;
+    }
+    #styleP{
+        font-size:120% ;
+        -webkit-text-stroke: 0.5px #AE0001;
     }
 }
