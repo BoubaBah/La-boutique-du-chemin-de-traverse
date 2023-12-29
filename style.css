@@ -7,6 +7,7 @@ body{
     font-family: 'Mountains of Christmas', serif;
     background-color: #726255;
     margin: 0%;
+}
 
 h2 {
     color: #eeba30;
@@ -31,8 +32,8 @@ header{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	align-content: center;
-  background-color: #372e29;
+    align-content: center;
+    background-color: #372e29;
 }
 
 nav {
@@ -66,7 +67,7 @@ nav {
 
 /*------------------------------Section body---------------------------*/
 .sec1{
-    background-image: url(img/fond.jpg) ;
+    background-image: url(img/background/fond.jpg) ;
     height: 100vh;
 }
  
@@ -209,10 +210,6 @@ h2{
 
 /*------------------------------Section Personnel---------------------------*/
 
-.personnel {
-    display: flex;
-}
-
 .perso {
     width: 100%;
 	display: flex;
@@ -286,13 +283,20 @@ h2{
     border-spacing: 5px;
 }
 
+#style_contact_footer{
+    color: #eeba30;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #ae0001;
+    text-decoration: none;
+    text-align: center;
+}
+
 /*------------------------------Section contact---------------------------*/
 
 .formulaire {
     width: 100%;
     height: auto;
     display: flex;
-    background-color: #372E29;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -300,17 +304,17 @@ h2{
 }
 
 .erenpotter2 {
-  width: 500px;
-  height: auto;
-	display: flex;
+    width: 500px;
+    height: auto;
+    display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: baseline;
 	align-content: center;
-  border-radius: 50%; 
-  border: groove #eeba30;
-  padding: 2px;
+    border-radius: 50%; 
+    border: groove #eeba30;
+    padding: 2px;
 }
 
 .contactez-nous {
@@ -324,7 +328,7 @@ h2{
 
 .contactez-nous > p {
     font-weight: 300;
-    }
+}
     
 form div {
     width: 100%;
@@ -332,12 +336,12 @@ form div {
     flex-direction: column;
     min-height: 83px;
     margin-top: 25px;
-    }
+}
     
 form div > label {
     margin-bottom: 7px;
     font-weight: 600;
-    }
+}
     
 form div > input, form div > select, form div > textarea {
     background: #726255;
@@ -348,12 +352,12 @@ form div > input, form div > select, form div > textarea {
     font-family: Montserrat, "sans-serif";
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
     color: white;
-    }
+}
     
 form div > input, form div > select {
     height: 50px;
     padding-left: 10px;
-    }
+}
     
 form div > select {
     appearance: none;
@@ -361,30 +365,29 @@ form div > select {
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
     background-position: right 10px top 50%;
     background-repeat: no-repeat;
-    }
+}
     
 form div > textarea {
     height: 195px;
     padding: 15px 0px 0px 10px;
-    }
+}
     
 form div > input::placeholder, form div > textarea::placeholder {
     color: white;
-    }
+}
     
 form div > select:invalid {
     color: white;
-    }
+}
     
 form div > select option {
-    background: white;
     color: white;
-    }
+}
     
 form div:last-child {
     align-items:center;
     margin-top: 20px;
-    }
+}
     
 form button {
     width: 310px;
@@ -397,7 +400,7 @@ form button {
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     color: white;
-    }
+}
 
 .envoyer {
     color: #eeba30;
@@ -437,3 +440,4 @@ form button {
     .para{
         font-size: x-small;
     }
+}
